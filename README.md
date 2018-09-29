@@ -1,2 +1,2 @@
-# DigitalLogicDesign
-Digital logic design
+# Digital Logic Design
+Verilog projects
