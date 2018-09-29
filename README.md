@@ -1,2 +1,2 @@
 # Digital Logic Design
-Verilog projects
+Verilog and something
