@@ -47,10 +47,10 @@ module RCA_16bits(C0, A, B, Sum, C4);
 endmodule
 
 module t_RCA_16bits;
-	wire	[15:0] Sum;
-	wire	Carry;
 	reg		[15:0] A;
 	reg		[15:0] B;
+	wire	[15:0] Sum;
+	wire	Carry;
 	
 	RCA_16bits M1(1'b0, A, B, Sum, Carry);
 	
