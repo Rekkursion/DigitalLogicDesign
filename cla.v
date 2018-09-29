@@ -24,12 +24,12 @@ module Carry_Calculator(C0, A, B, Carry);
 	input	[15:0] A;
 	input	[15:0] B;
 	wire	[15:0] G, P;
+	genvar k;
 	
 	assign	#(10) G = A & B;
 	assign	#(20) P = A ^ B;
 	assign	Carry[0] = C0;
 	
-	genvar k;
 	generate
 		for(k = 1; k < 16; k = k + 1) begin
 			assign #(25) Carry[k] = (P[k - 1] & Carry[k - 1]) | G[k - 1];
