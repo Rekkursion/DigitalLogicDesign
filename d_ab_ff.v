@@ -6,7 +6,7 @@ module D_AB_FF(Q, D, CLK);
 	input		D, CLK;
 	
 	always @(posedge CLK) begin
-		#(1) Q <= D;
+		#(2) Q <= D;
 	end
 endmodule
 
