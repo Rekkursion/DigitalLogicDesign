@@ -1,5 +1,6 @@
 `timescale 100ns/1ps
 
+
 module ALU(y, A, B, Sel);
 	output reg [7:0] y;
 	input [7:0] A;
