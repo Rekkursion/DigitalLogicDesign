@@ -1,5 +1,6 @@
 `timescale 1ns/100ps
 
+
 module D_Latch(Q, QB, D, En);
 	output 	Q, QB;
 	input	D, En;
