@@ -1,5 +1,6 @@
 `timescale 1ns/100ps
 
+
 module Half_Adder(A, B, Sum, Cout);
 	output	Sum, Cout;
 	input	A, B;
