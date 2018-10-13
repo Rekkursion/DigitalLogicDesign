@@ -1,5 +1,6 @@
 `timescale 1ns/100ps
 
+
 module D_AB_FF(Q, D, CLK);
 	output reg	Q;
 	input		D, CLK;
