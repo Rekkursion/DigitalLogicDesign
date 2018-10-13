@@ -1,5 +1,6 @@
 `timescale 1ns/100ps
 
+
 module D_ET_FF(Q, QB, D, CLK);
 	output	Q, QB;
 	input	D, CLK;
