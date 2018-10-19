@@ -105,9 +105,6 @@ module t_Binary_Counter_4bits;
 		#100; CLK = 0;
 		
 		#100; CLK = 1;
-		
-		
-		
 	end
 	initial #3000 $finish;
 	initial $dumpvars;
