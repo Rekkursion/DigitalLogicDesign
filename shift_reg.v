@@ -1,5 +1,6 @@
 `timescale 1ns/100ps
 
+
 module Shift_Register(A_par, I_par, CLK, LSB_in, MSB_in, Sel, Clear);
 	output reg [3:0]	A_par;
 	input [3:0]			I_par;
